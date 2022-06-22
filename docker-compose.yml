@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    command: streamlit run --server.maxUploadSize=5 app/app.py
+    ports:
+      - 8501:8501

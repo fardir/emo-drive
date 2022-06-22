@@ -1,0 +1,6 @@
+skorch
+torch
+numpy
+pandas
+Pillow
+streamlit
